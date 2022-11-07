@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    color: blueviolet;
+}
+header{
+    display:-webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main{
+    height: 750px;
+    width: 1500px;
+    background-image: url('../francesca-tosolini-hCU4fimRW-c-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: auto;
+}
+li{
+    display: inline-block;
+    text-align: center;
+    margin: 8px;
+    padding: 8px;
+
+}
+li ul{
+    display:flexbox;
+}
+
+li a{
+    padding: 8px;
+    background-color: white;
+    width: 60px; 
+
+}
+
+
+.top-nav{
+    list-style-type: none;
+    display: block;
+    margin: 16px;
+    padding: 16px;
+}
+
+ 
+.top-nav li a{
+    transition: 3s;
+    color: blueviolet;
+}
+.top-nav li a:hover {
+    color: blue;
+}
+button{
+    
+    border:none;
+    border-bottom-style: 3px;
+    font size: 18px;
+    font: 6px;
+    color:black;
+    height: 35px;
+    border-top-left-radius: 2px;
+    background: burlywood;
+    outline:0;
+    width: 60px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.3);
+    font-family: open sans-serif;
+}
+input{
+    height: 36px;
+    width: 648px;
+    line-height: 36px;
+    font-size: 18px;
+    bottom: 15px;
+    cursor: pointer;
+    padding:0 10px;
+    top: 10px;
+    left: 25px;
+    z-index: 1;
+
+p{
+    font-size: 70px;
+    color:purple
+    top: 57px;
+    position: relative;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+}
+
